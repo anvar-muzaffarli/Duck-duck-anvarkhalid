@@ -74,3 +74,23 @@ margin: 0 auto;
     }
   }
 
+
+
+  .privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+
+    display: none;
+  }
+
+  .privacy span {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    gap: 10px;
+  }
+
+
+  
