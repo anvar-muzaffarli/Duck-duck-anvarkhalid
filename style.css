@@ -1,0 +1,63 @@
+body{
+    background-color: #222;
+}
+.first-header{
+    display: flex;
+    justify-content:flex-end;
+
+}
+.duck-logo{
+    width: 200px;
+    height: 160px;
+    display: block;
+    margin: 40px auto 30px;
+}
+
+.search-input{
+
+    border-radius: 8px;
+    width: 613.4px;
+    height: 42.4px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+}
+
+
+
+.search-svg{
+    width: 20px;
+    position: absolute;
+
+
+}
+.first-form{
+position: relative;
+}
+.menu-icon{
+    margin-top: 20px;
+    padding-right: 15px;
+}
+.first-h1{
+    display: flex;
+    justify-content: center;
+    color: #eeeeee;
+   
+}
+.first-h3{
+
+    display: flex;
+    justify-content: center;
+    color: #eeeeee;
+}
+@media(min-width:320px){
+  .search-input{
+    width: 300px;  
+    }
+    .first-header{display: flex;
+        justify-content: flex-start;
+
+    }
+  }
+
