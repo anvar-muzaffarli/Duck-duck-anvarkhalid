@@ -38,6 +38,8 @@ position: relative;
 .menu-icon{
     margin-top: 20px;
     padding-right: 15px;
+    cursor: pointer;
+  
 }
 .first-h1{
     display: flex;
@@ -51,12 +53,13 @@ position: relative;
     justify-content: center;
     color: #eeeeee;
 }
-@media(min-width:320px){
+@media(max-width:576px){
   .search-input{
     width: 300px;  
     }
     .first-header{display: flex;
         justify-content: flex-start;
+        color:#fff;
 
     }
   }
